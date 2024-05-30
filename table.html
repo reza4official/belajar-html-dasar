@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Table</title>
+  </head>
+  <body>
+    <h1>Belajar Table</h1>
+    <table style="border: 1px solid black">
+      <colgroup>
+        <col span="2" style="background-color: lightgray" />
+        <col style="background-color: lightgreen" />
+      </colgroup>
+      <thead>
+        <tr>
+          <!-- <th>First Name</th>
+          <th>Last Name</th> -->
+          <th colspan="2">Full Name</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reza</td>
+          <td>Armstrong</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Ayuliana</td>
+          <td>KR</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td rowspan="2">Total</td>
+          <td>Total</td>
+          <!-- <td colspan="2">Total</td> -->
+          <td>180</td>
+        </tr>
+        <tr>
+          <td>Average</td>
+          <td>90</td>
+        </tr>
+      </tfoot>
+      <caption>
+        Table Score
+      </caption>
+    </table>
+  </body>
+</html>
